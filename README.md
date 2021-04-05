@@ -155,48 +155,70 @@ handleContextMenu(e) {
 
 ### API
 ***Props***
+
 The default global options are:
+
 ```js
 {
     // 标识符，相同者共享一个实例
     id: {
-    type: String, default: ''
+        type: String, default: ''
     },
     // 接收父组件中v-model的值
     value: { type: Boolean, default: false },
+    // 标题
     title: String,
+    // 内容（支持自定义插槽内容）
     content: String,
+    // 弹窗类型（toast | footer | actionsheet | actionsheetPicker | android/ios）
     type: String,
+    // 自定义弹窗样式
     popupStyle: String,
+    // toast图标（loading | success | fail）
     icon: String,
+    // 是否显示遮罩层
     shade: { type: [Boolean, String], default: true },
+    // 是否点击遮罩时关闭弹窗
     shadeClose: { type: [Boolean, String], default: true },
+    // 遮罩层透明度
     opacity: { type: [Number, String], default: '' },
+    // 是否显示圆角
     round: Boolean,
+    // 是否显示关闭图标
     xclose: Boolean,
+    // 关闭图标位置（left | right | top | bottom）
     xposition: { type: String, default: 'right' },
+    // 关闭图标颜色
     xcolor: { type: String, default: '#333' },
+    // 弹窗动画（scaleIn | fadeIn | footer | fadeInUp | fadeInDown）
     anim: { type: String, default: 'scaleIn' },
+    // 弹出位置（top | right | bottom | left）
     position: String,
+    // 长按/右键弹窗（坐标点）
     follow: { type: Array, default: null },
+    // 弹窗自动关闭秒数（1、2、3）
     time: { type: [Number, String], default: 0 },
+    // 弹窗层叠（默认8080）
     zIndex: { type: [Number, String], default: '8080' },
+    // 弹窗按钮（参数：text|style|disabled|click）
     btns: {
-    type: Array, default: null
+        type: Array, default: null
     },
+    // 打开弹窗回调
     onOpen: { type: Function, default: null },
+    // 关闭弹窗回调
     onClose: { type: Function, default: null },
 },
 ```
 
 ***Emits***
-| 参数 | 说明 | 类型 | 使用
+| 参数 | 说明 | 类型 | 调用方式
 | --- | --- | --- | ---
-| open | 打开弹出层时触发 | Function | 组件式调用 `@open="xxx"`
-| close | 关闭弹出层时触发 | Function | 组件式调用 `@close="xxx"`
+| open | 打开弹出层时触发 | Function | `@open="xxx"`
+| close | 关闭弹出层时触发 | Function | `@close="xxx"`
 
 ***Events***
-| 参数 | 说明 | 类型 | 默认值
+| 参数 | 说明 | 类型 | 调用方式
 | --- | --- | --- | ---
-| onOpen | 打开弹框回调函数 | Function | 函数式调用 `onOpen() {...}`
-| onClose | 关闭弹框回调函数 | Function | 函数式调用 `onClose() {...}`
+| onOpen | 打开弹框回调函数 | Function | `onOpen() {...}`
+| onClose | 关闭弹框回调函数 | Function | `onClose() {...}`
