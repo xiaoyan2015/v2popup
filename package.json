@@ -1,6 +1,6 @@
 {
   "name": "v2popup",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "description": "轻量级的移动端 Vue2.x 弹框组件",
   "scripts": {
