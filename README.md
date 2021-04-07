@@ -2,12 +2,12 @@
     <img src="https://vuejs.org/images/logo.png" width="120" />
 </p>
 
-<h1 align="center">V2Popup</h1>
+<h2 align="center">V2Popup</h2>
 
 <p align="center">轻量级的移动端 Vue2.x 弹层组件</p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/v-tooltip"><img src="https://img.shields.io/npm/v/v-tooltip.svg"/></a>
+    <a href="https://www.npmjs.com/package/v2popup"><img src="https://img.shields.io/npm/v/v2popup.svg"/></a>
     <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg?style=flat-square"/></a>
     <img src="https://img.badgesize.io/https://unpkg.com/vant/lib/vant.min.js?compression=gzip&style=flat-square&label=gzip%20size&color=#4fc08d" />
 </p>
@@ -34,6 +34,7 @@ import Vue from 'vue'
 
 // 引入弹框组件
 import V2Popup from 'v2popup'
+import 'v2popup/dist/v2popup.css'
 Vue.use(V2Popup)
 ```
 

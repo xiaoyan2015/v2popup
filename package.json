@@ -32,6 +32,11 @@
     "vpopup",
     "v2popup"
   ],
+  "homepage": "https://gitee.com/xiaoyan2017/v2popup#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/xiaoyan2017/v2popup.git"
+  },
   "eslintConfig": {
     "root": true,
     "env": {
