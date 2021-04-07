@@ -1,11 +1,12 @@
 {
   "name": "vpopup",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib lib/popup/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -20,6 +21,17 @@
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
   },
+  "main": "dist/vpopup.common.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "keywords": [
+    "vue",
+    "vue2",
+    "vpopup",
+    "v2popup"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
