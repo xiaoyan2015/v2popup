@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/1.png" />
+    <img src="https://z3.ax1x.com/2021/04/07/c8UKk6.png" />
 </p>
 
 <h2 align="center">V2Popup</h2>
@@ -39,9 +39,9 @@ Vue.use(V2Popup)
 ```
 
 ### 截图
-![](https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/2.png)
+![](https://z3.ax1x.com/2021/04/07/c8UMtK.png)
 
-![](https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/1.gif)
+![](https://z3.ax1x.com/2021/04/07/c8U31e.gif)
 
 ### 快速上手
 ***1. 组件式调用***
@@ -123,7 +123,9 @@ export default {
 ```
 
 ***2. 函数式调用***
+
 注册组件的时候，已经在 Vue 的 `prototype` 上挂载 `$popup` 方法。
+
 ```js
 // toast弱提示
 handleToast() {
@@ -218,12 +220,15 @@ The default global options are:
 ```
 
 ***Emits***
+
 | 参数 | 说明 | 类型 | 调用方式
 | --- | --- | --- | ---
 | open | 打开弹出层时触发 | Function | `@open="xxx"`
 | close | 关闭弹出层时触发 | Function | `@close="xxx"`
 
+
 ***Events***
+
 | 参数 | 说明 | 类型 | 调用方式
 | --- | --- | --- | ---
 | onOpen | 打开弹框回调函数 | Function | `onOpen() {...}`
