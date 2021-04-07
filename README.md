@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://vuejs.org/images/logo.png" width="120" />
+    <img src="https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/1.png" />
 </p>
 
 <h2 align="center">V2Popup</h2>
@@ -37,6 +37,11 @@ import V2Popup from 'v2popup'
 import 'v2popup/dist/v2popup.css'
 Vue.use(V2Popup)
 ```
+
+### 截图
+![](https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/1.gif)
+
+![](https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/2.gif)
 
 ### 快速上手
 ***1. 组件式调用***
