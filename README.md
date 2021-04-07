@@ -41,7 +41,7 @@ Vue.use(V2Popup)
 ### 截图
 ![](https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/1.gif)
 
-![](https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/2.gif)
+![](https://gitee.com/xiaoyan2017/v2popup/raw/master/screenshot/2.png)
 
 ### 快速上手
 ***1. 组件式调用***
