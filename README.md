@@ -9,7 +9,7 @@
 <p align="center">
     <a href="https://www.npmjs.com/package/v2popup"><img src="https://img.shields.io/npm/v/v2popup.svg"/></a>
     <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg?style=flat-square"/></a>
-    <img src="https://img.badgesize.io/https://unpkg.com/vant/lib/vant.min.js?compression=gzip&style=flat-square&label=gzip%20size&color=#4fc08d" />
+    <img src="https://img.badgesize.io/https://unpkg.com/v2popup/dist/v2popup.umd.min.js?compression=gzip&style=flat-square&label=gzip%20size&color=#4fc08d" />
 </p>
 
 ---
